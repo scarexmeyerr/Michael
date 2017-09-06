@@ -1,0 +1,126 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package javaapplication2;
+
+/**
+ *
+ * @author mm104
+ */
+public class JavaApplication2 {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // TODO code application logic here
+   
+    //QUESTION 1.
+           
+            String firstName = "Michael";
+            
+            String lastName = "Meyer";
+            
+            String fullName = firstName+"\t"+lastName;
+                
+            System.out.print(fullName);
+    
+    
+    //QUESTION 2.
+        
+            String statement1 = "\nWelcome "+firstName+"\t"+lastName+" to the wonderful world of Java!!!";
+            
+            System.out.print(statement1);
+            
+    
+    //QUESTION 3.
+    
+            String statement2 = "\nI will be graduating soon!\n";
+            
+            System.out.print(statement2);
+    
+   
+    //QUESTION 4.
+            
+            String statement3 = "I am enjoying my experience at Straathmore University";
+            
+            System.out.print(statement3);
+            
+    //QUESSTION 5.
+            
+            Double height,base,hyp,area,Perimeter;
+            
+            base = 10.0;
+            height = 7.0;
+            hyp = 12.0; 
+            
+            area = 0.5 * (base * height);
+            Perimeter = base + height + hyp;
+            
+            String output1 = "\nThe area is: "; 
+            String output2 = "\nThe Perimeter is: ";
+            
+            
+            System.out.print(output1);
+            System.out.print(area);
+            System.out.print(output2);
+            System.out.print(Perimeter);
+            
+    //QUESTION 6.
+   
+            int S_P,B_P,Profit;
+            
+            S_P = 580000;
+            B_P = 450000;
+            
+            Profit = S_P-B_P;
+            
+            String statement5 = "\nThe Profit is: ";
+            System.out.print(statement5);
+            System.out.print(Profit);
+
+    //QUESTION 7.
+            
+            int YOB,current_year,minus;
+            
+            YOB = 1954;
+            current_year = 2017;
+            
+            minus = current_year - YOB;
+            
+            String statement6 = "\nPeter's age is: ";
+            System.out.print(statement6);
+            System.out.print(minus);
+    
+    //QUESTION 8.
+            
+            Double ha,sons,division;
+            
+            ha = 20.0;
+            sons = 6.0;
+            division = ha/sons;
+            
+            String statement7 = "\nEach son will get: ";
+            System.out.print(statement7);
+            System.out.print(division);            
+            System.out.print("ha");        
+            
+    //QUESTION 9.
+            
+            int a,b;
+            Double c;
+            a = 10;
+            b = 15;
+            c = 12.6;
+            
+            System.out.print(a);
+            
+            
+                    }   
+    
+    
+       
+}
+
